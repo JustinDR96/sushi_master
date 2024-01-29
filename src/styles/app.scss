@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  max-width: 100vw;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: "Satoshi", sans-serif;
+  overflow: auto;
+  background-color: var(--primary-color);
+}
+
+body {
+  --sb-track-color: #f3ede1;
+  --sb-thumb-color: #1d2544;
+  --sb-size: 5px;
+
+  scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+}
+
+body::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 5px;
+  border: 5px solid #232e33;
+}

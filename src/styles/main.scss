@@ -1,0 +1,33 @@
+// Importer les styles de base
+@import "./base/reset";
+
+// Importer les variables et les mixins
+@import "./helpers/mixins";
+@import "./helpers/variables";
+
+// Importer les styles des composants
+@import "../components/Header/Header.scss";
+@import "../components/Footer/Footer.scss";
+@import "../components/Card-menu/card-menu.scss";
+
+// Importer les styles spécifiques aux pages
+@import "../app/home.scss";
+@import "../app/menu/menu.scss";
+
+// Importer les styles globaux
+@import "./app";
+
+// Importer la première police
+@font-face {
+  font-family: "Hiromi Sake";
+  src: url("/fonts/HIROMISAKE.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+// Importer la deuxième police
+@font-face {
+  font-family: "Satoshi";
+  src: url("/fonts/Satoshi-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
