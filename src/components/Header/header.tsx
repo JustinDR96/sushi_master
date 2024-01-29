@@ -17,10 +17,10 @@ export default function header() {
           <a href="/menu">Menu</a>
         </div>
         <div className="header_menu_item">
-          <a href="#">About</a>
+          <a href="/about">About</a>
         </div>
         <div className="header_menu_item">
-          <a href="#">Contact</a>
+          <a href="/contact">Contact</a>
         </div>
       </div>
 
