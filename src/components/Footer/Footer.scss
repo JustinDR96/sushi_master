@@ -1,5 +1,9 @@
 .footer {
   background-color: var(--secondary-color);
-  height: 80px;
+  height: max-content;
   flex-shrink: 0;
+  color: var(--primary-color);
+  padding: 20px;
+  text-align: center;
+  width: 100%;
 }

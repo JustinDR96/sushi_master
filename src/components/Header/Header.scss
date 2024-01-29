@@ -37,4 +37,12 @@
   display: flex;
   align-items: center;
   gap: 5px;
+  cursor: pointer;
+  svg {
+    transition: all 0.5s ease-in-out;
+  }
+  svg:hover {
+    fill: var(--button-color);
+    transform: scale(1.2);
+  }
 }
