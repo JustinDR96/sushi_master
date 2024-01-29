@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <>
@@ -10,7 +12,9 @@ export default function Home() {
             dishes, expertly prepared by our skilled chefs, using only the
             freshest ingredients.
           </p>
-          <button>Order Now</button>
+          <button>
+            <Link href="/menu">Order Now</Link>
+          </button>
         </div>
         <div className="home-hero">
           <img src="/images/assets/ramen-removebg-preview.png" alt="" />
