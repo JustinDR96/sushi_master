@@ -82,6 +82,19 @@
 @include large {
   .girl,
   .girl-2 {
+    width: 300px;
+  }
+}
+
+@include tablet {
+  .girl,
+  .girl-2 {
+    width: 200px;
+  }
+}
+@include mobile {
+  .girl,
+  .girl-2 {
     display: none;
   }
 }
