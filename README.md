@@ -21,6 +21,8 @@ Sushi Masta is a Japanese restaurant site offering an authentic culinary experie
 3. Install dependencies: `npm install`
 4. Run the development server: `npm run dev`
 
+---
+
 ## Copyright
 
 © 2024 De Roover Justin
