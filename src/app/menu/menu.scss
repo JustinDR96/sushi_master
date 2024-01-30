@@ -19,3 +19,15 @@
   flex-wrap: wrap;
   gap: 2rem;
 }
+
+@include tablet {
+  .menu {
+    padding: 2rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .menu-card {
+    gap: 1rem;
+  }
+}

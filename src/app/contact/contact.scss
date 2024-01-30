@@ -19,7 +19,7 @@ form {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  width: 500px;
+  max-width: 500px;
   input {
     width: 100%;
     padding: 1rem;
@@ -82,5 +82,17 @@ form {
   }
   .input {
     margin-top: 2rem;
+  }
+}
+
+@include tablet {
+  .contact {
+    padding: 2rem;
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  .contact-card {
+    gap: 1rem;
   }
 }

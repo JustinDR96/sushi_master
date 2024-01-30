@@ -1,5 +1,6 @@
 .home {
   width: 100%;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,13 +17,14 @@
   align-items: center;
   justify-content: center;
   color: var(--secondary-color);
+
   h1 {
     font-size: 4.5rem;
     font-family: "Hiromi Sake", sans-serif;
     text-align: center;
   }
   p {
-    width: 500px;
+    max-width: 500px;
     line-height: 1.4;
     text-align: center;
   }
@@ -50,6 +52,13 @@
     }
   }
 }
+@include tablet {
+  .home-content {
+    h1 {
+      font-size: 3.5rem;
+    }
+  }
+}
 .home-hero {
   img {
     width: 100%;
@@ -68,4 +77,11 @@
   position: absolute;
   left: 0;
   bottom: 0;
+}
+
+@include large {
+  .girl,
+  .girl-2 {
+    display: none;
+  }
 }
