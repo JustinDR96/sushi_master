@@ -2,7 +2,7 @@
 
 Sushi Masta is a Japanese restaurant site offering an authentic culinary experience with a variety of fresh sushi and Japanese dishes.
 
-![Image Name](/sushi_master/public/images/readme/Sushis-Master.png)
+![Image Name](public/images/readme/Sushis-Master.png)
 
 ## Live Site Preview
 
